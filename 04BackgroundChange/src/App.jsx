@@ -5,7 +5,7 @@ import './App.css'
 
 
 function App() {
-  const [color, setColor] = useState("white")
+  const [color, setColor] = useState("black")
 
   return (
       <div className='h-screen w-screen text-white text-4xl relative' style={{backgroundColor: color}}>
